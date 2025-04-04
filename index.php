@@ -1,7 +1,10 @@
+<?php include "processing.php" ?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles/main.css">
         <title>Finding Joy</title>
     </head>
 
@@ -13,7 +16,7 @@
 
         <main>
             <section class="gallery">
-                <!-- Submissions go here-->
+                <?php generateTiles(); ?>
             </section>
         </main>
     </body>
