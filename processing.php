@@ -1,16 +1,20 @@
 <?php
     function loadResponsesFromFile() {
-        $file = fopen("responses.txt", "r");
-        $ln = 0;
+        $file = file_get_contents("responses.json");
+        $json = json_decode($file, true);
 
-        $responses = array();
-
-        while($line = fgets($file)) {
-            $ln++;
-            $responses[] = $line;
+        if($json == null) {
+            echo "Error: failed to load or parse json file. Uh oh spaghettios.";
+            exit;
         }
 
-        return $responses;
+        $responseText = array();
+
+        foreach($json as $response) {
+            $responseText[] = $response['text'];
+        }
+
+        return $responseText;
     }
 
     function createTileElement($text) {
