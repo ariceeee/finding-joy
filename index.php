@@ -10,11 +10,76 @@
 
     <body>
         <header>
-            <h1>Our everyday life is magic.</h1>
-            <p id="descr">I asked the Internet to tell me about the <span class="em">small</span>, <span class="em">simple</span>, <span class="em">mundane</span>, and <span class="em">"boring"</span> things in their life that bring them joy. Here's what they said:</p>
-        </header>
+                <nav>
+                    <div id="logo">
+                        <h1>Finding <span id = "cursive">Joy</span> In Your Everyday</h1>
+                    </div>
 
+                    <div class="nav-item">
+                        <a href="index.php">Home</a>
+                    </div>
+
+                    <div class="nav-item">
+                        <a href="about.html">About</a>
+                    </div>
+
+                    <div class="nav-item">
+                        <a href="https://forms.gle/MfK3JFmvvbnjdAGj6">Contribute</a>
+                    </div>
+                </nav>
+            </header>
         <main>
+            
+            <section class="filter-panel">
+                <h2 id="filter-panel-title">Browse By Topic</h2>
+
+                <div class = "filters">
+                    <button class = "filter">
+                        Animal
+                    </button>
+
+                    <button class = "filter">
+                        Comfort
+                    </button>
+
+                    <button class = "filter">
+                        Creativity & Expression
+                    </button>
+
+                    <button class = "filter">
+                        Daily Routine
+                    </button>
+
+                    <button class = "filter">
+                        Five Senses
+                    </button>
+
+                    <button class = "filter">
+                        Food & Drink
+                    </button>
+
+                    <button class = "filter">
+                        Human Connection
+                    </button>
+
+                    <button class = "filter">
+                        Introspection
+                    </button>
+
+                    <button class = "filter">
+                        Mindfulness
+                    </button>
+
+                    <button class = "filter">
+                        Nature
+                    </button>
+
+                    <button class = "filter">
+                        Wisdom & Reflection
+                    </button>
+                </div>
+            </section>
+
             <section class="gallery">
                 <?php generateTiles(); ?>
             </section>
