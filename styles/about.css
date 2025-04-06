@@ -1,0 +1,32 @@
+main {
+    margin: 0;
+    padding: 0;
+}
+
+.about-panel {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px 40px;
+    margin: 30px 60px;
+}
+
+#emphasize {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.3em;
+}
+
+#to-the-people, p {
+    font-size: 1.3em;
+}
+
+li {
+    list-style: none;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+p {
+    text-align: justify;
+}

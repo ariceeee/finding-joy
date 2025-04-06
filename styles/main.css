@@ -102,6 +102,10 @@ button {
     padding-top: 10px;
 }
 
+.selected {
+    background-color: palevioletred;
+}
+
 .gallery {
     display: flex;
     flex-wrap: wrap;
