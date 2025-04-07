@@ -5,6 +5,7 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="styles/main.css">
+        <script src="filter.js"></script>
         <title>Finding Joy</title>
     </head>
 
@@ -35,7 +36,7 @@
 
                 <div class = "filters">
                     <button class = "filter">
-                        Animal
+                        Animals
                     </button>
 
                     <button class = "filter">
@@ -43,7 +44,7 @@
                     </button>
 
                     <button class = "filter">
-                        Creativity & Expression
+                        Creativity &amp; Expression
                     </button>
 
                     <button class = "filter">
@@ -55,7 +56,7 @@
                     </button>
 
                     <button class = "filter">
-                        Food & Drink
+                        Food &amp; Drink
                     </button>
 
                     <button class = "filter">
@@ -75,7 +76,7 @@
                     </button>
 
                     <button class = "filter">
-                        Wisdom & Reflection
+                        Wisdom &amp; Reflection
                     </button>
                 </div>
             </section>

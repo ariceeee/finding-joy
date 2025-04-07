@@ -103,7 +103,10 @@ button {
 }
 
 .selected {
-    background-color: palevioletred;
+    background-color: #685c84;
+    border: 1px solid #685c84;
+    font-weight: bold;
+    color: #fff;
 }
 
 .gallery {
